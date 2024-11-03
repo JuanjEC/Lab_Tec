@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package culturoteca.controllers;
+package culturemedia.controllers;
 
 import java.util.List;
 import java.util.Collections;
 
-import culturoteca.exception.VideoNotFoundException;
-import culturoteca.model.Video;
-import culturoteca.service.impl.CultureMediaServiceImpl;
+import culturemedia.exception.VideoNotFoundException;
+import culturemedia.model.Video;
+import culturemedia.service.impl.CultureMediaServiceImpl;
 
 public class CultureMediaController {
 
@@ -27,6 +27,7 @@ public class CultureMediaController {
         }
     }
 }
+
 /**
  *
  * @author Juan
