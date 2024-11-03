@@ -8,16 +8,16 @@ import culturemedia.exception.VideoNotFoundException;
 import culturemedia.model.Video;
 import culturemedia.model.View;
 import culturemedia.repository.VideoRepository;
-import culturemedia.repository.ViewRepository;
 import culturemedia.service.CultureMediaServices;
 
 import java.util.List;
+import culturemedia.repository.ViewsRepository;
 
 public class CultureMediaServiceImpl implements CultureMediaServices {
     private VideoRepository videoRepository;
-    private ViewRepository viewRepository;
+    private ViewsRepository viewRepository;
 
-    public CultureMediaServiceImpl(VideoRepository videoRepository, ViewRepository viewRepository) {
+    public CultureMediaServiceImpl(VideoRepository videoRepository, ViewsRepository viewRepository) {
         this.videoRepository = videoRepository;
         this.viewRepository = viewRepository;
     }
