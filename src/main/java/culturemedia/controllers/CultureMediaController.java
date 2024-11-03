@@ -20,14 +20,9 @@ public class CultureMediaController {
     }
 
     public List<Video> findAllVideos() {
-        try {
-            return cultureMediaService.findAll();
-        } catch (VideoNotFoundException e) {
-            return Collections.emptyList();
-        }
+        return cultureMediaService.findAll();
     }
 }
-
 /**
  *
  * @author Juan
