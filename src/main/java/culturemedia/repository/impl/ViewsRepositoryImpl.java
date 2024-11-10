@@ -5,12 +5,12 @@
 package culturemedia.repository.impl;
 
 import culturemedia.model.View;
-import culturemedia.repository.ViewsRepository;
 
 import java.util.ArrayList;
 import java.util.List;
+import culturemedia.repository.ViewRepository;
 
-public class ViewsRepositoryImpl implements ViewsRepository {
+public class ViewsRepositoryImpl implements ViewRepository {
     private final List<View> views;
 
     public ViewsRepositoryImpl() {
