@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 import culturemedia.repository.ViewRepository;
 
-public class ViewsRepositoryImpl implements ViewRepository {
+public class ViewRepositoryImpl implements ViewRepository {
     private final List<View> views;
 
-    public ViewsRepositoryImpl() {
+    public ViewRepositoryImpl() {
         this.views = new ArrayList<>();
     }
 
